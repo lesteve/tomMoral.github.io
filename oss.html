@@ -78,7 +78,7 @@ $(function(){
     <div class="project">
     <div class="project_item">
         <span class="title">Loky </span>
-        <a href="https://github.com/tomMoral/loky"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+        <a href="https://github.com/joblib/loky"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
         <span class="date">Apr 2023</span>
         <div class="logo">
             <img src="https://github.com/joblib/loky/raw/master/docs/_static/loky_logo.svg" style="height: 100%;"/>
@@ -96,11 +96,16 @@ $(function(){
             The aim of this project is to provide a robust, cross-platform and cross-version implementation of the <span class="highlightcode">ProcessPoolExecutor</span> class of <span class="highlightcode">concurrent.futures</span>.
         </span>
         <div class="details">
-            The aim of this project is to provide a robust, cross-platform and cross-version implementation of the <span class="highlightcode">ProcessPoolExecutor</span> class of  <span class="highlightcode">concurrent.futures</span>. It features:</br>
-<ul> <li> <b>Deadlock free implementation</b>: one of the major concern in standard <span class="highlightcode">multiprocessing</span> and <span class="highlightcode">concurrent.futures</span> libraries is the ability of the <span class="highlightcode">Pool/Executor</span> to handle crashes of worker processes. This library intends to fix those possible deadlocks and send back meaningful errors.</li></br>
-<li><b>Consistent spawn behavior</b>: All processes are started using <span class="highlightcode">fork/exec</span> on POSIX systems. This ensures safer interactions with third party libraries.</li></br>
-<li><b>Reusable executor</b>: strategy to avoid respawning a complete executor every time. A singleton pool can be reused (and dynamically resized if necessary) across consecutive calls to limit spawning and shutdown overhead. The worker processes can be shutdown automatically after a configurable idling timeout to free system resources.</li></ul></br>
-</br>
+            The aim of this project is to provide a robust, cross-platform and cross-version implementation of the <span class="highlightcode">ProcessPoolExecutor</span> class of  <span class="highlightcode">concurrent.futures</span>. It features:
+</br>
+<ul> <li> <b>Deadlock free implementation</b>: one of the major concern in standard <span class="highlightcode">multiprocessing</span> and <span class="highlightcode">concurrent.futures</span> libraries is the ability of the <span class="highlightcode">Pool/Executor</span> to handle crashes of worker processes. This library intends to fix those possible deadlocks and send back meaningful errors.</li>
+</br>
+<li><b>Consistent spawn behavior</b>: All processes are started using <span class="highlightcode">fork/exec</span> on POSIX systems. This ensures safer interactions with third party libraries.</li>
+</br>
+<li><b>Reusable executor</b>: strategy to avoid respawning a complete executor every time. A singleton pool can be reused (and dynamically resized if necessary) across consecutive calls to limit spawning and shutdown overhead. The worker processes can be shutdown automatically after a configurable idling timeout to free system resources.</li></ul>
+</br>
+
+</br>
 <i>python, multiprocessing, parallel computing</i>
         </div>
     </div>
@@ -128,8 +133,10 @@ $(function(){
             Benchmarking tool for optimization.
         </span>
         <div class="details">
-            BenchOpt is a package to simplify, make more transparent and more reproducible the comparisons of optimization algorithms.</br>
-</br>
+            BenchOpt is a package to simplify, make more transparent and more reproducible the comparisons of optimization algorithms.
+</br>
+
+</br>
 BenchOpt is written in Python but it is available with many programming languages. So far it has been tested with Python, R, Julia and compiled binaries written in C/C++ available via a terminal command. If it can be installed via conda it should just work!
         </div>
     </div>
@@ -182,10 +189,14 @@ BenchOpt is written in Python but it is available with many programming language
             Easy and reliable parallel computing with Python functions.
         </span>
         <div class="details">
-            Joblib is a set of tools to provide lightweight pipelining in Python. In particular: <ul><li>transparent disk-caching of functions and lazy re-evaluation (memoize pattern)</li><li> easy simple parallel computing</li></ul> Joblib is optimized to be fast and robust on large data in particular and has specific optimizations for numpy arrays. It is BSD-licensed and its documentation can be found at <a href="https://joblib.readthedocs.io/">https://joblib.readthedocs.io/</a>.</br>
-</br>
-Starting 2017, I have been involved in Joblib development, first to integrate loky as a new multiprocessing backend and them as a regular developer for the library.</br>
-</br>
+            Joblib is a set of tools to provide lightweight pipelining in Python. In particular: <ul><li>transparent disk-caching of functions and lazy re-evaluation (memoize pattern)</li><li> easy simple parallel computing</li></ul> Joblib is optimized to be fast and robust on large data in particular and has specific optimizations for numpy arrays. It is BSD-licensed and its documentation can be found at <a href="https://joblib.readthedocs.io/">https://joblib.readthedocs.io/</a>.
+</br>
+
+</br>
+Starting 2017, I have been involved in Joblib development, first to integrate loky as a new multiprocessing backend and them as a regular developer for the library.
+</br>
+
+</br>
 <i>python, multiprocessing, parallel computing</i>
         </div>
     </div>
@@ -261,9 +272,12 @@ Starting 2017, I have been involved in Joblib development, first to integrate lo
             Gnome shell extension displaying the status of Nvidia GPU card in the gnome-shell panel.
         </span>
         <div class="details">
-            Gnome shell extension displaying the status of Nvidia GPU card in the gnome-shell panel.</br>
-</br>
-</br>
+            Gnome shell extension displaying the status of Nvidia GPU card in the gnome-shell panel.
+</br>
+
+</br>
+
+</br>
 <i>gnome-shell, clutter, bash</i>
         </div>
     </div>
@@ -289,8 +303,10 @@ Starting 2017, I have been involved in Joblib development, first to integrate lo
             Gnome shell extension to manage a todolist with different subsections.
         </span>
         <div class="details">
-            Gnome shell extension to manage a todolist with different subsections.</br>
-This section is integrated in the gnome shell with a counter of the remaining tasks.</br>
+            Gnome shell extension to manage a todolist with different subsections.
+</br>
+This section is integrated in the gnome shell with a counter of the remaining tasks.
+</br>
 <i>javascript, gnome-shell, bash, clutter</i>
         </div>
     </div>
